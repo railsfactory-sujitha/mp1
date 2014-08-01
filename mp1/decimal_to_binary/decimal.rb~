@@ -1,0 +1,15 @@
+c = 0
+k = 0
+puts "Enter an integer in decimal number"
+num = gets.chomp.to_i
+puts "#{num} in binary will be"
+for c in 31..
+  k = n >> c
+     if (k & 1)
+       print "1"
+     else
+        print "0"
+     end
+  c--
+end
+

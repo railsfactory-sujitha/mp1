@@ -1,0 +1,28 @@
+i = 3
+c = 0
+x = 0
+puts "Enter the number of prime numbers required"
+n = gets.chomp.to_i
+   if n > 1
+        puts "First #{n} prime numbers are"
+        puts "2 is prime" 
+    end 
+    for c in 2..n
+       for x in 2..(i-1)
+           if i%x == 0
+           #puts "The number #{n} is prime"
+            end  
+        end
+        if x == i       
+            puts "#{i}"
+          c = c + 1
+         end
+ i=i+1
+end
+
+
+          
+        
+    
+         
+ 
